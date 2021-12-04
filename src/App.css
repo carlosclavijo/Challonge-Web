@@ -1,0 +1,15 @@
+th:nth-child(odd) {
+  background-color: lightcoral;
+}
+
+th:nth-child(even) {
+  background-color: lightblue;
+}
+
+td:nth-child(odd) {
+  background-color:lightgreen;
+}
+
+td:nth-child(even) {
+  background-color:lightsalmon;
+}
