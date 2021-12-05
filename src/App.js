@@ -1,13 +1,13 @@
 import './App.css';
-import ListaTorneos from './objetos/torneo/ListaTorneos';
-//import ListaUsuarios from './objetos/usuario/ListaUsuarios';
+import Body from './index/body';
+import Header from './index/Header';
+
 
 function App() {
   return (
     <div>
-      {/* <HolaMundo texto="como va"/> */}
-      <ListaTorneos/>
-      {/* <FormPersona/> */}
+      <Header/>
+      <Body/>
     </div>
   );
 }
